@@ -7,7 +7,7 @@ Zomato Clone
 # Description 
 A clone of Zomato built using HTML and css. This project was created for practising and learning front end development 
 # Live Demo
-visit: 
+visit: https://adibansal1703.github.io/Zomato-clone/
 # Screenshots
 ![image](https://github.com/user-attachments/assets/1395a49a-e43c-4a64-8ce8-977a49cbda9a)
 ![image](https://github.com/user-attachments/assets/09c34093-1f99-4e7e-8a49-9e67fac162bd)
