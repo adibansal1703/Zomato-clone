@@ -1,0 +1,689 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img-one {
+    height: 730px;
+    background-image: url("pizza.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(46, 39, 39, 0.7);
+    z-index: 1;
+}
+
+.title {
+    position: relative;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h1 {
+    font-size: 7em;
+    color: white;
+    margin-top: 340px;
+}
+
+.intro {
+    position: relative;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro p {
+    font-size: 2.5em;
+    font-weight: 800;
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.compliment {
+    position: relative;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.compliment p {
+    font-size: 1.5em;
+    font-weight: 300;
+    color: white;
+    margin-top: 20px;
+}
+
+.scroll {
+    position: relative;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 60px;
+    font-size: 25px;
+    font-weight: 600;
+    animation: scroll_down 1s ease-in infinite;
+}
+
+.scroll p {
+    margin-right: 20px;
+}
+
+@keyframes scroll_down {
+    from {
+        margin: 60px;
+    }
+
+    to {
+        margin: 70px;
+    }
+
+}
+
+.img-two {
+    height: 730px;
+    background-image: url("lines.png");
+    background-size: cover;
+    position: relative;
+}
+
+.red-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ef4f5f;
+    text-align: justify;
+    font-size: 36px;
+    font-weight: 900;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.red-title p {
+    margin-top: 200px;
+}
+
+.grey-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: monospace;
+    text-align: center;
+}
+
+.grey-title p {
+    margin-top: 25px;
+}
+
+.pizza {
+    position: absolute;
+    right: 0;
+    top: 55%;
+    transform: translateY(-30%);
+    background-image: url("pizzaa.webp");
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.burger {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-image: url("burger.webp");
+    background-size: cover;
+}
+
+.momo {
+    position: absolute;
+    right: 0;
+    top: 40%;
+    transform: translateY(-90%);
+    background-image: url("momo.webp");
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.food {
+    height: 240px;
+    width: 240px;
+}
+
+.intro-box {
+    width: 600px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid pink;
+    border-radius: 10px;
+    box-shadow: 0 0 3px gray;
+    position: absolute;
+    top: 75%;
+    left: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hotel-img {
+    height: 50px;
+    width: 50px;
+    background-image: url("home.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.city-img {
+    height: 50px;
+    width: 50px;
+    background-image: url("location.avif");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.odr-img {
+    height: 50px;
+    width: 50px;
+    background-image: url("order.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.one {
+    font-size: 1.2rem;
+    color: gray;
+    font-weight: 600;
+}
+
+.page-three {
+    height: 730px;
+    background: linear-gradient(rgb(250, 227, 231), white);
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #ef4f5f;
+    position: relative;
+    top: 12%;
+    text-align: center;
+}
+
+.intro-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: gray;
+    position: relative;
+    top: 16%;
+    text-align: center;
+    font-weight: 100;
+}
+
+.phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20%
+}
+
+.phone-img {
+    height: 500px;
+    width: 300px;
+    background-image: url("phone.avif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delivery {
+    height: 400px;
+    width: 200px;
+    background-image: url("delivery.avif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 155px;
+}
+
+.healthy {
+    height: 100px;
+    width: 100px;
+    background-image: url("healty.avif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    box-shadow: 0 0 3px gray;
+    position: relative;
+    bottom: 45%;
+    left: 20%;
+}
+
+.healthy-des {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 70%;
+}
+
+.veg {
+    height: 100px;
+    width: 100px;
+    background-image: url("veg.avif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    box-shadow: 0 0 3px gray;
+    position: relative;
+    bottom: 62%;
+    left: 29%;
+}
+
+.veg-des {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 70%;
+}
+
+.party {
+    height: 100px;
+    width: 100px;
+    background-image: url("party.avif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    box-shadow: 0 0 3px gray;
+    position: relative;
+    bottom: 55%;
+    left: 22%;
+}
+
+.party-des {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 70%;
+    text-align: center;
+}
+
+.gift {
+    height: 100px;
+    width: 100px;
+    background-image: url("gift.avif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    box-shadow: 0 0 3px gray;
+    position: relative;
+    bottom: 72%;
+    left: 30%;
+}
+
+.gift-des {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 70%;
+    text-align: center;
+}
+
+.gourmet {
+    height: 100px;
+    width: 100px;
+    background-image: url("gourmet.avif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    box-shadow: 0 0 3px gray;
+    position: relative;
+    bottom: 100%;
+    left: 62%;
+}
+
+.gourmet-des {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 70%;
+}
+
+.Train {
+    height: 100px;
+    width: 100px;
+    background-image: url("train.avif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    box-shadow: 0 0 3px gray;
+    position: relative;
+    bottom: 96%;
+    left: 64%;
+}
+
+.Train-des {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 70%;
+}
+
+.offer {
+    height: 120px;
+    width: 100px;
+    background-image: url("offer.avif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    box-shadow: 0 0 3px gray;
+    position: relative;
+    bottom: 130%;
+    left: 71%;
+}
+
+.offer-des {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 70%;
+}
+
+.meals {
+    height: 110px;
+    width: 100px;
+    background-image: url("meals.avif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    box-shadow: 0 0 3px gray;
+    position: relative;
+    bottom: 127%;
+    left: 73%;
+}
+
+.meals-des {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 70%;
+}
+
+.shadow {
+    height: 30px;
+    box-shadow: 0px 0px 20px 20px rgb(255, 254, 254, 0.9);
+    position: relative;
+    bottom: 119%;
+}
+
+.page-four {
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card-one {
+    height: 380px;
+    width: 250px;
+    background: linear-gradient(-130deg, #ffc6cd, white);
+    border-radius: 24px;
+    border: 2px solid pink;
+    transition: transform 0.3s ease;
+    padding: 50px;
+}
+
+.card-one:hover {
+    transform: scale(1.10);
+}
+
+.card-one-img {
+    height: 140px;
+    width: 140px;
+    background-image: url("z_omato.avif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+}
+
+.card-one-head {
+    font-size: 22px;
+    color: #293142;
+    text-align: center;
+    margin: 10px;
+}
+
+.card-one-intro {
+    font-size: 15px;
+    color: #596378;
+    text-align: center;
+}
+
+.card-one-more {
+    font-size: 18px;
+    color: #293142;
+    text-align: center;
+    margin: 25px;
+}
+
+.card-two {
+    height: 380px;
+    width: 250px;
+    background: linear-gradient(-130deg, #ffeeaf, white);
+    border-radius: 24px;
+    border: 2px solid rgb(253, 253, 151);
+    transition: transform 0.3s ease;
+    padding: 50px;
+}
+
+.card-two:hover {
+    transform: scale(1.10);
+}
+
+.card-two-img {
+    height: 140px;
+    width: 140px;
+    background-image: url("blinkit.avif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+}
+
+.card-two-head {
+    font-size: 22px;
+    color: #293142;
+    text-align: center;
+    margin: 10px;
+}
+
+.card-two-intro {
+    font-size: 15px;
+    color: #596378;
+    text-align: center;
+}
+
+.card-two-more {
+    font-size: 18px;
+    color: #293142;
+    text-align: center;
+    margin: 25px;
+}
+
+.card-three {
+    height: 380px;
+    width: 250px;
+    background: linear-gradient(-130deg, #dfcfff, white);
+    border-radius: 24px;
+    border: 2px solid rgb(249, 182, 249);
+    transition: transform 0.3s ease;
+    padding: 50px;
+}
+
+.card-three:hover {
+    transform: scale(1.10);
+}
+
+.card-three-img {
+    height: 140px;
+    width: 140px;
+    background-image: url("district.avif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+}
+
+.card-three-head {
+    font-size: 22px;
+    color: #293142;
+    text-align: center;
+    margin: 10px;
+}
+
+.card-three-intro {
+    font-size: 15px;
+    color: #596378;
+    text-align: center;
+}
+
+.card-three-more {
+    font-size: 18px;
+    color: #293142;
+    text-align: center;
+    margin: 25px;
+}
+
+.card-four {
+    height: 380px;
+    width: 250px;
+    background: linear-gradient(-130deg, #ffc6cd, white);
+    border-radius: 24px;
+    border: 2px solid pink;
+    transition: transform 0.3s ease;
+    padding: 50px;
+}
+
+.card-four:hover {
+    transform: scale(1.10);
+}
+
+.card-four-img {
+    height: 140px;
+    width: 140px;
+    background-image: url("hyperpure.avif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+}
+
+.card-four-head {
+    font-size: 22px;
+    color: #293142;
+    text-align: center;
+    margin: 10px;
+}
+
+.card-four-intro {
+    font-size: 15px;
+    color: #596378;
+    text-align: center;
+}
+
+.card-four-more {
+    font-size: 18px;
+    color: #293142;
+    text-align: center;
+    margin: 25px;
+}
+.page-four-head{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 500;
+    color: #ef4f5f;
+}
+.page-five{
+    height: 600px;
+    background-color: black;
+}
+.page-five-head{
+    font-size: 1.5rem;
+    color: white;
+    padding-top: 65px;
+    padding-left: 350px;
+}
+.page-five-lists{
+    height: 230px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.page-five-lists p{
+color: #e8e8e8;
+margin: 10px;
+font-size: 18px;
+font-weight: 400;
+}
+.page-five-lists li{
+    color: #62626a;
+    list-style-type: none;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 200;
+}
+.page-five-lists li:hover{
+    color: white;
+}
+hr{
+    border: 1px solid gray;
+    width: 50%;
+    margin: 160px auto;
+}
+.last-info{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.last{
+    color: #62626a;
+    font-size: 12px;
+    position: absolute;
+    bottom: 20%;
+}
