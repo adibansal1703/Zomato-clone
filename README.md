@@ -15,4 +15,4 @@ visit: https://adibansal1703.github.io/Zomato-clone/
 ![image](https://github.com/user-attachments/assets/ccc22afe-4322-4e81-aefa-6af0924460ab)
 ![image](https://github.com/user-attachments/assets/bb8cba27-46e0-4a98-bedd-c4505d2ffec7)
 # Author 
-@adibansal1703 //
+@adibansal1703
